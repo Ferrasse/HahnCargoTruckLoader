@@ -34,13 +34,18 @@ namespace HahnCargoTruckLoader.Logic
                 _instructions[instruction.LoadingStepNumber] = instruction;
             }
 
+            DisplayInstructions();
+
+            return _instructions;
+        }
+
+        private void DisplayInstructions()
+        {
             Console.WriteLine("Valid Loading Instructions:");
-            foreach (var instruction in _instructions.Values)
+            foreach (var instruction in _instructions.Values.OrderBy(i => i.LoadingStepNumber))
             {
                 Console.WriteLine($"Step {instruction.LoadingStepNumber}: Crate {instruction.CrateId} at ({instruction.TopLeftX}, {instruction.TopLeftY}, {instruction.TopLeftZ}) with TurnHorizontal={instruction.TurnHorizontal}, TurnVertical={instruction.TurnVertical}");
             }
-
-            return _instructions;
         }
 
         private List<LoadingInstruction> InitializeRandomSolution()
@@ -241,7 +246,6 @@ namespace HahnCargoTruckLoader.Logic
             }
         }
     }
-
 }
 
 
