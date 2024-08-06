@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HahnCargoTruckLoader", "HahnCargoTruckLoader\HahnCargoTruckLoader.csproj", "{000A82BF-7646-43E1-994B-FD9B038203B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFC79792-E7E9-4314-A1D5-70A428935AE5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000A82BF-7646-43E1-994B-FD9B038203B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000A82BF-7646-43E1-994B-FD9B038203B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000A82BF-7646-43E1-994B-FD9B038203B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000A82BF-7646-43E1-994B-FD9B038203B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {412B770A-E5E2-4CD1-AA4E-E9D423BE0054}
+	EndGlobalSection
+EndGlobal
